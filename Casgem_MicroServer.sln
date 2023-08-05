@@ -37,7 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasgemMicroService.Payment"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{894845FB-531C-45B9-B768-D7D48D34F80A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casgem_MicroServer.Shared", "Shared\Casgem_MicroServer.Shared\Casgem_MicroServer.Shared.csproj", "{CDFCDDFD-75DE-4F79-BC8F-AF0A46A36356}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casgem_MicroServer.Shared", "Shared\Casgem_MicroServer.Shared\Casgem_MicroServer.Shared.csproj", "{CDFCDDFD-75DE-4F79-BC8F-AF0A46A36356}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{38B9A86A-BA54-4D7E-926D-60DBFF52EB53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casgem_MicroServer", "IdentityServer\Casgem_MicroServer\Casgem_MicroServer.csproj", "{BB17370C-1266-4D68-80EF-FF7FE5983B7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +77,10 @@ Global
 		{CDFCDDFD-75DE-4F79-BC8F-AF0A46A36356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDFCDDFD-75DE-4F79-BC8F-AF0A46A36356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDFCDDFD-75DE-4F79-BC8F-AF0A46A36356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB17370C-1266-4D68-80EF-FF7FE5983B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB17370C-1266-4D68-80EF-FF7FE5983B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB17370C-1266-4D68-80EF-FF7FE5983B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB17370C-1266-4D68-80EF-FF7FE5983B7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +99,7 @@ Global
 		{ECDA9069-07E1-403D-970E-128AB358BA17} = {9E49BE26-76E7-4B71-8580-961A75E3203D}
 		{CAE567BA-0874-4AC8-A5EE-B3DCF10D9FFC} = {F29635C0-C835-46D9-9CE2-1159F950C8EA}
 		{CDFCDDFD-75DE-4F79-BC8F-AF0A46A36356} = {894845FB-531C-45B9-B768-D7D48D34F80A}
+		{BB17370C-1266-4D68-80EF-FF7FE5983B7E} = {38B9A86A-BA54-4D7E-926D-60DBFF52EB53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E9B5518-4F4C-4D11-83A5-BCD9DCC4ECE0}
